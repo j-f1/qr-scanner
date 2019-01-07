@@ -1,5 +1,6 @@
 {
   "private": true,
+  "homepage": "https://qr-scanner.netlify.com/",
   "main": "src/index.js",
   "dependencies": {
     "prettier": "latest",
