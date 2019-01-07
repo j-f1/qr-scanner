@@ -3,7 +3,7 @@
   "homepage": "https://qr-scanner.netlify.com/",
   "main": "src/index.js",
   "dependencies": {
-    "prettier": "latest",
+    "prettier": "prettier/prettier",
     "react": "16.7.0-alpha.2",
     "react-dom": "16.7.0-alpha.2",
     "react-scripts": "2.0.3"
@@ -13,10 +13,9 @@
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
-    "format": "prettier --write **/*.{tsx,ts,css,json,yml}"
+    "prettier": "prettier **/*.{tsx,ts,css,json,yml}",
+    "format": "yarn prettier --check",
+    "fix": "yarn prettier --write"
   },
-  "browserslist": [">0.2%", "not dead", "not ie <= 11", "not op_mini all"],
-  "keywords": ["qr-scanner", "qr-code"],
-  "name": "qr-scanner",
-  "description": null
+  "browserslist": [">0.2%", "not dead", "not ie <= 11", "not op_mini all"]
 }
