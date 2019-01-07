@@ -1,0 +1,23 @@
+aside {
+  font-family: sans-serif;
+  background: #ccc;
+  width: 300px;
+  padding: 8px;
+}
+h2 {
+  text-align: center;
+}
+ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+body {
+  display: flex;
+  margin: 0;
+  height: 100vh;
+  background: black;
+}
+video {
+  margin: auto;
+}

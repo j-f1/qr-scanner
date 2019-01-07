@@ -1,0 +1,21 @@
+{
+  "private": true,
+  "main": "src/index.js",
+  "dependencies": {
+    "prettier": "latest",
+    "react": "16.7.0-alpha.2",
+    "react-dom": "16.7.0-alpha.2",
+    "react-scripts": "2.0.3"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "format": "prettier --write **/*.{tsx,ts,css,json,yml}"
+  },
+  "browserslist": [">0.2%", "not dead", "not ie <= 11", "not op_mini all"],
+  "keywords": ["qr-scanner", "qr-code"],
+  "name": "qr-scanner",
+  "description": null
+}
