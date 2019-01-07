@@ -17,5 +17,10 @@
     "lint": "yarn prettier --check",
     "format": "yarn prettier --write"
   },
-  "browserslist": [">0.2%", "not dead", "not ie <= 11", "not op_mini all"]
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
 }
