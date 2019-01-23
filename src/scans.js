@@ -9,7 +9,7 @@ const Scans = ({ scans }) => (
       <ul>
         {scans.map(({ date, content }) => (
           <li key={date}>
-            {isURL(content) ? <a href={content}>{content}</a> : content}
+            {isURL(content) ? <a href={content} target="_blank">{content}</a> : content}
           </li>
         ))}
       </ul>
