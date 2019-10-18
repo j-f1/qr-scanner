@@ -20,4 +20,5 @@ body {
 }
 video {
   margin: auto;
+  border-radius: 1.5em;
 }
